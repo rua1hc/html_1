@@ -4,8 +4,29 @@
     box-sizing: border-box;
 }
 
+/* vid-10 Floating Elements */
+.tweet {
+    border: 5px solid lightgray;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.avatar {
+    width: 5rem;
+    height: 5rem;
+    background-color: gold;
+    float: left;
+
+    margin-right: 0.5rem;
+}
+.clear {
+    clear: both;
+}
+
 /* vid-9: Positioning */
-.boxes {
+/* .boxes {
     border: 5px solid lightgray;
     position: relative;
 }
@@ -19,13 +40,12 @@
 .box-2 {
     background-color: tomato;
     position: fixed;
-    /* right: 0; */
     top: 0;
     z-index: 9999;
 }
 .box-3 {
     background-color: dodgerblue;
-}
+} */
 
 /* set font size of root element: 62.5% x 16px = 10px */
 /* html {
