@@ -4,20 +4,33 @@
     box-sizing: border-box;
 }
 
+html {
+    /* set font size of root element: 62.5% x 16px = 10px */
+    /* font-size: 62.5%; */
+}
+
 p {
     padding: 0px;
     /* border: 5px solid gold; */
     margin: 20;
 }
 
+body {
+    margin: 10px;
+}
+
 /* .box::before {
     content: "Mimi";
 } */
 .box {
-    width: 150px;
-    height: 150px;
+    /* 10em = 10 x 16px = 160px - font size current element*/
+    /* font-size: 20px; */
+
+    /* rem - font size root element = 16px fixed */
+    width: 20rem;
+    height: 100vh; /* 100% */
     border: 5px solid gold;
-    overflow: hidden auto;
+    /* overflow: hidden auto; */
 
     /* background-color: yellow; */
 
