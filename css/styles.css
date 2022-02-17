@@ -4,8 +4,37 @@
     box-sizing: border-box;
 }
 
+/* vid-11 FlexBox */
+.container {
+    height: 90vh;
+    border: 5px solid lightgray;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    /* align-content: center; */
+    flex-wrap: wrap;
+}
+/* flex-shrink: 1 1 15rem; */
+.box {
+    flex-basis: 15rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    width: 10rem;
+    height: 10rem;
+    /* background-color: gold; */
+    background: gold;
+    margin: 1rem;
+}
+.box-1 {
+    align-self: flex-start;
+}
+
 /* vid-10 Floating Elements */
-.tweet {
+/* .tweet {
     border: 5px solid lightgray;
 }
 .clearfix::after {
@@ -23,7 +52,7 @@
 }
 .clear {
     clear: both;
-}
+} */
 
 /* vid-9: Positioning */
 /* .boxes {
