@@ -4,8 +4,47 @@
     box-sizing: border-box;
 }
 
-/* vid-11 FlexBox */
+/* vid-12 Grid */
 .container {
+    border: 5px solid gray;
+    /* background-color: greenyellow; */
+
+    display: grid;
+    /* grid-template-rows: repeat(3, 100px);
+    grid-template-columns: 100px 100px; */
+    /* grid-template: repeat(3, 120px) / repeat(2, 120px); */
+    grid-template: 100px auto 100px / 30fr 70fr;
+
+    grid-template-areas:
+        "header  header"
+        "sidebar main"
+        ".       footer";
+
+    /* justify-items: center;
+    align-items: center; */
+    /* justify-content: center;
+    align-content: center; */
+    height: 100vh;
+
+    /* row-gap: 10px;
+    column-gap: 10px; */
+    gap: 10px;
+}
+.box {
+    /* width: 5rem;
+    height: 5rem; */
+    background: gold;
+}
+.box-1 {
+    grid-column: 1/-1;
+    /* grid-area: header; */
+}
+.box-3 {
+    grid-area: footer;
+}
+
+/* vid-11 FlexBox */
+/* .container {
     height: 90vh;
     border: 5px solid lightgray;
 
@@ -14,24 +53,23 @@
     justify-content: center;
     align-items: center;
 
-    /* align-content: center; */
+    align-content: center;
     flex-wrap: wrap;
-}
+} */
 /* flex-shrink: 1 1 15rem; */
-.box {
+/* .box {
     flex-basis: 15rem;
     flex-grow: 1;
     flex-shrink: 1;
 
     width: 10rem;
     height: 10rem;
-    /* background-color: gold; */
     background: gold;
     margin: 1rem;
 }
 .box-1 {
     align-self: flex-start;
-}
+} */
 
 /* vid-10 Floating Elements */
 /* .tweet {
