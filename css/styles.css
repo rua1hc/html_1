@@ -4,6 +4,34 @@
     box-sizing: border-box;
 }
 
+/* vid-17 Embedding Web Fonts */
+@font-face {
+    font-family: "open_sans";
+    src: url("/font/opensans/opensans-regular-webfont.woff2") format("woff2"),
+        url("/font/opensans/opensans-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "open_sans";
+    src: url("/font/opensans/opensans-bold-webfont.woff2") format("woff2"),
+        url("/font/opensans/opensans-bold-webfont.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* vid-16 Styling Fonts */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-family: "open_sans", Georgia, "Times New Roman", Times, serif;
+    /* font-style: italic; */
+    font-size: 1rem;
+    color: #222;
+}
+
 /* vid-14 Media Queries */
 .container14 {
     display: flex;
