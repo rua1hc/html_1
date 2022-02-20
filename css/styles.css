@@ -22,7 +22,7 @@
     font-style: normal;
 }
 
-/* vid-20 System Font Stack */
+/* vid-20-21 System Font Stack-Sizing Fonts */
 /* vid-19 Font Services */
 /* vid-16 Styling Fonts */
 body {
@@ -31,11 +31,16 @@ body {
     /* font-family: "Open Sans", Arial, Helvetica, sans-serif; */
     /* font-family: Arial, Helvetica, sans-serif; */
 }
+h2 {
+    margin: 3rem 0 1rem;
+}
 p {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     /* font-family: "open_sans", Georgia, "Times New Roman", Times, serif; */
     /* font-style: italic; */
     font-size: 1rem;
+    line-height: 1.5;
+
     color: #222;
 }
 
