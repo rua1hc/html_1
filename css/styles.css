@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 
-/* vid-17 Embedding Web Fonts */
+/* vid-17-18 Embedding Web Fonts */
 @font-face {
     font-family: "open_sans";
     src: url("/font/opensans/opensans-regular-webfont.woff2") format("woff2"),
         url("/font/opensans/opensans-regular-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
+    font-display: optional;
 }
 
 @font-face {
@@ -21,12 +22,15 @@
     font-style: normal;
 }
 
+/* vid-19 Font Services */
 /* vid-16 Styling Fonts */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
 p {
-    font-family: "open_sans", Georgia, "Times New Roman", Times, serif;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    /* font-family: "open_sans", Georgia, "Times New Roman", Times, serif; */
     /* font-style: italic; */
     font-size: 1rem;
     color: #222;
