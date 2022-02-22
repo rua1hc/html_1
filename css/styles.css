@@ -22,6 +22,7 @@
     font-style: normal;
 }
 
+/* vid-28 Background Images */
 /* vid-24 Formatting Text */
 /* vid-22-23 Vertical-Horizontal Spacing */
 /* vid-20-21 System Font Stack-Sizing Fonts */
@@ -32,6 +33,11 @@ body {
         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     /* font-family: "Open Sans", Arial, Helvetica, sans-serif; */
     /* font-family: Arial, Helvetica, sans-serif; */
+    background: url(../images/bg-sanfrancisco.jpg);
+    background-repeat: no-repeat;
+    /* background-position: 100% 0; */
+    background-size: cover;
+    background-attachment: fixed;
 }
 h2 {
     margin: 3rem 0 1rem;
@@ -76,11 +82,13 @@ p {
     flex-direction: column;
 }
 .box14 {
-    background-color: gold;
+    border: 5px solid gold;
+    /* background-color: gold; */
     padding: 1rem;
 }
 .box14:nth-child(2) {
-    background-color: dodgerblue;
+    border: 5px solid dodgerblue;
+    /* background-color: dodgerblue; */
 }
 
 @media screen and (min-width: 600px) {
