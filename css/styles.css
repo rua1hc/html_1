@@ -58,6 +58,21 @@
     font-style: normal;
 }
 
+/* vid-31-32 CSS Clipping - Filters */
+.meal:hover {
+    /* clip-path: polygon(
+        0% 20%,
+        60% 20%,
+        60% 0%,
+        100% 50%,
+        60% 100%,
+        60% 80%,
+        0% 80%
+    ); */
+    filter: grayscale(70%) blur(1px);
+    /* height: 400px; */
+}
+
 /* vid-28 Background Images */
 /* vid-24 Formatting Text */
 /* vid-22-23 Vertical-Horizontal Spacing */
