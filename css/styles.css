@@ -59,6 +59,11 @@
 }
 
 /* vid-31-32 CSS Clipping - Filters */
+.ufo {
+    width: 200px;
+}
+
+/* vid-31-32 CSS Clipping - Filters */
 .meal:hover {
     /* clip-path: polygon(
         0% 20%,
