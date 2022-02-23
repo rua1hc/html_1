@@ -17,20 +17,34 @@
         <link rel="stylesheet" href="/css/styles.css" />
     </head>
     <body>
-        <img
+        <!-- <img
             src="/images/meal.jpg"
             alt="vid-33 Supporting High-density Screens"
             class="meal"
-        />
+        /> -->
         <img
             src="/images/meal.jpg"
-            alt="Supporting High-density Screens"
+            alt="vid-33 Supporting High-density Screens"
             class="meal"
             srcset="
                 images/meal.jpg    1x,
                 images/meal@2x.jpg 2x,
                 images/meal@3x.jpg 3x
             "
+        />
+        <img
+            src="/images/meal.jpg"
+            alt="vid-34 Resolution Switching"
+            class="meal"
+            srcset="
+                images/meal.jpg     400w,
+                images/meal@2x.jpg  800w,
+                images/meal@3x.jpg 1200w
+            "
+            sizes="
+            (max-width:500px) 100vw,
+            (max-width:700px) 50vw,
+            33vw"
         />
         <!-- <img
             alt="vid-30 Data URLs: css-sprite-combined.png"
