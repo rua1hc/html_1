@@ -17,12 +17,25 @@
         <link rel="stylesheet" href="/css/styles.css" />
     </head>
     <body>
+        <picture>
+            <source
+                srcset="/images/meal.webp 1x, /images/meal@2x.webp 2x"
+                type="image/webp"
+            />
+            <source srcset="/images/meal.jpg" type="image/jpeg" />
+            <img
+                src="/images/meal.jpg"
+                alt="vid-35 Using Modern Image Formats"
+            />
+        </picture>
+
         <!-- <img
             src="/images/meal.jpg"
             alt="vid-33 Supporting High-density Screens"
             class="meal"
         /> -->
-        <img
+
+        <!-- <img
             src="/images/meal.jpg"
             alt="vid-33 Supporting High-density Screens"
             class="meal"
@@ -45,7 +58,8 @@
             (max-width:500px) 100vw,
             (max-width:700px) 50vw,
             33vw"
-        />
+        /> -->
+
         <!-- <img
             alt="vid-30 Data URLs: css-sprite-combined.png"
             src=""
