@@ -58,6 +58,11 @@
     font-style: normal;
 }
 
+/* vid-38 Font Icons */
+.icon {
+    font-size: 2rem;
+    color: dodgerblue;
+}
 /* vid-31-32 CSS Clipping - Filters */
 .ufo {
     width: 200px;
