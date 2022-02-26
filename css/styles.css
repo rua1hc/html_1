@@ -59,6 +59,11 @@
 }
 
 /* vid-42 CSS Frameworks: see bootstrap milligram site */
+textarea {
+    resize: none;
+}
+
+/* vid-42 CSS Frameworks: see bootstrap milligram site */
 
 /* vid-41 Styling Forms */
 label {
