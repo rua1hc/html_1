@@ -193,6 +193,13 @@ p {
     border: 5px solid dodgerblue;
     /* background-color: dodgerblue; */
 }
+/* vid-55 Transformations */
+.box14:hover {
+    /* transform: rotate(15deg); */
+    /* transform: scale(0.5); */
+    /* transform: skew(15deg); */
+    transform: translate(10px);
+}
 
 @media screen and (min-width: 600px) {
     .container14 {
