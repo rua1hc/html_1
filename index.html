@@ -39,12 +39,17 @@
             <section>
                 <h4>vid-51 Hidden Fields</h4>
                 <p>vid-50 Grouping Related Fields: Billing Addr</p>
-                <input type="text" />
-                <input type="text" />
+                <input
+                    type="text"
+                    autofocus
+                    required
+                    minlength="3"
+                    maxlength="10"
+                /><input type="number" autofocus required min="0" max="99" />
+                <button type="submit">vid-52 Data Validation</button>
             </section>
             <fieldset>
                 <legend>Payment</legend>
-                <input type="text" />
                 <input type="text" />
             </fieldset>
 
@@ -86,7 +91,7 @@
             </select>
 
             <label for="vid-43">input type="number/date/password.."</label>
-            <input type="text" autofocus value="vid-43: Text Fields" />
+            <input type="text" value="vid-43: Text Fields" />
             <input
                 type="text"
                 list="countries"
