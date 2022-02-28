@@ -179,6 +179,7 @@ p {
     border: 3px solid black;
 }
 
+/* vid-57 Transitions */
 /* vid-56 3D Transformations */
 /* vid-14 Media Queries */
 .container14 {
@@ -186,9 +187,14 @@ p {
     flex-direction: column;
     perspective: 200px;
 }
+.container14 .box14 {
+    /* transition: transform 0.5s linear 1s; */
+    transition: transform 0.5s, background 1s;
+}
 .container14:hover .box14 {
     transform: rotateY(15deg);
     /* transform-origin: 0 0; */
+    background: gold;
 }
 .box14 {
     border: 5px solid gold;
