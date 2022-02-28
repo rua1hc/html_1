@@ -34,7 +34,7 @@
     </head>
 
     <body>
-        <form action="">
+        <form action="https://formspree.io/f/mjvlrgyb" method="POST">
             <input type="hidden" name="pay-id" value="99" />
             <section>
                 <h4>vid-51 Hidden Fields</h4>
@@ -44,9 +44,25 @@
                     autofocus
                     required
                     minlength="3"
-                    maxlength="10"
-                /><input type="number" autofocus required min="0" max="99" />
+                    maxlength="20"
+                    placeholder="Name"
+                    name="name"
+                />
+                <input type="email" placeholder="Email" name="email" />
+                <input
+                    type="number"
+                    placeholder="Age"
+                    autofocus
+                    required
+                    min="0"
+                    max="99"
+                    name="age"
+                />
                 <button type="submit">vid-52 Data Validation</button>
+                <button type="submit">
+                    <i class="fas fa-alert"></i>
+                    vid-53 Submitting the Form
+                </button>
             </section>
             <fieldset>
                 <legend>Payment</legend>
