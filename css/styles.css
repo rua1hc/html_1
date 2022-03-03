@@ -189,7 +189,7 @@ p {
 }
 .container14 .box14 {
     /* transition: transform 0.5s linear 1s; */
-    transition: transform 0.5s, background 1s;
+    transition: transform 0.5s cubic-bezier(0.6, 0.6, 0.8, 0.8), background 1s;
 }
 .container14:hover .box14 {
     transform: rotateY(15deg);
