@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+:root {
+    --color-pri: gold;
+    --border-rad: 2px;
+}
+
+/* vid-62 Variables */
+.box62 {
+    background: var(--color-pri);
+}
+
 /* vid-29 CSS Sprites */
 .bg-saturn {
     background: url("../images/css-sprite-combined.png") 0px -0px;
